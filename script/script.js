@@ -12,7 +12,7 @@ function juega(valor) {
     document.getElementById("juegopc").src = cartas[juegoMaquina]
     document.getElementById("juegohumano").src = cartas[valor]
     const info = document.getElementById("info")
-    alert(juegoMaquina + " " + valor)
+    // alert(juegoMaquina + " " + valor)
 
 // 1 papel 2 piedra 3 tijera
     switch (valor) {
